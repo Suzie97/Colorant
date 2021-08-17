@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Colorant
+GenericName=Colorant App
+Comment=Colors Redefined
+Categories=Graphics;Utility;
+Exec=com.github.Abdallah_Moh.Colorant
+Icon=com.github.Abdallah_Moh.Colorant
+Terminal=false
+Type=Application
+Keywords=Color;Design;
