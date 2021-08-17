@@ -1,7 +1,7 @@
 public class MyApp : Gtk.Application {
     public MyApp () {
         Object (
-            application_id: "com.github.Abdallah_Moh.Colorant",
+            application_id: "com.github.abdallah_moh.colorant",
             flags: ApplicationFlags.FLAGS_NONE
         );
     }

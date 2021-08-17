@@ -18,9 +18,9 @@ Run `meson build` to configure the build environment and run `ninja` to build
     ninja
 ```
 
-To install, use `ninja install`, then execute with `com.github.Abdallah_Moh.Colorant`
+To install, use `ninja install`, then execute with `com.github.abdallah_moh.colorant`
 
 ```Bash
     sudo ninja install
-    com.github.Abdallah_Moh.Colorant
+    com.github.abdallah_moh.colorant
 ```

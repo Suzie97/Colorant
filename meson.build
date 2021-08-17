@@ -1,5 +1,5 @@
 # project name and programming language
-project('com.github.Abdallah_Moh.Colorant', 'vala', 'c')
+project('com.github.abdallah_moh.colorant', 'vala', 'c')
 
 # Create a new executable, list the files we want to compile, list the dependencies we need, and install
 executable(
@@ -13,14 +13,14 @@ executable(
 
 # Install our .desktop file so the Applications Menu will see it
 install_data(
-    'data' / 'com.github.Abdallah_Moh.Colorant.desktop',
+    'data' / 'com.github.abdallah_moh.colorant.desktop',
     install_dir: get_option('datadir') / 'applications',
     rename: meson.project_name() + '.desktop'
 )
 
 # Install our .appdata.xml file so AppCenter will see it
 install_data(
-    'data' / 'com.github.Abdallah_Moh.Colorant.appdata.xml',
+    'data' / 'com.github.abdallah_moh.colorant.appdata.xml',
     install_dir: get_option('datadir') / 'metainfo',
     rename: meson.project_name() + '.appdata.xml'
 )
