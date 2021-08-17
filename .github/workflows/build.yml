@@ -1,10 +1,10 @@
 name: "CI"
 
-on:  
+on:
   push:
-    branches: [ master ]
+    branches: [master]
   pull_request:
-    branches: [ master ]
+    branches: [master]
 
 jobs:
   build:
@@ -16,7 +16,7 @@ jobs:
       - name: Install Dependencies
         run: |
           apt update
-          apt install -y libgtk-3-dev valac meson libgranite-dev
+          apt install -y libgtk-3-dev valac meson
       - name: Build
         run: |
           meson build
