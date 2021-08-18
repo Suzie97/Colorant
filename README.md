@@ -1,6 +1,6 @@
 # Colorant
 
-Colors Redefined
+Colors app designed for elementary os
 
 ## Building, Testing, and Installation
 
